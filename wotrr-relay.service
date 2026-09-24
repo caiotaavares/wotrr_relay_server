@@ -1,0 +1,14 @@
+[Unit]
+Description=War of the Ring Reconnect (WoTRR) UDP Relay Server
+After=network.target
+
+[Service]
+Type=simple
+User=wotr
+WorkingDirectory=/home/wotr/wotrr_relay_server
+ExecStart=/usr/bin/python3 /home/wotr/wotrr_relay_server/wotrr_relay_server.py
+Restart=always
+RestartSec=3
+
+[Install]
+WantedBy=multi-user.target

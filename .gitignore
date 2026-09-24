@@ -1,0 +1,32 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Relay runtime logs & backups
+*.log
+*.log.*
+wotrr_relay.log
+wotr_relay.log
+
+# Process ID & runtime files
+*.pid
+relay.pid
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor & IDE configs
+.vscode/
+.idea/
+*.swp
+*~
+
